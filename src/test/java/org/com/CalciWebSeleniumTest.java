@@ -89,8 +89,8 @@ public class CalciWebSeleniumTest {
 	
 	WebElement inputSecondElement = 	driver.
 			findElement(By.xpath("/html/body/div/div/form/input[2]"));
-	 	int num1 = 23;
-	 	int num2 = 45;
+	 	int num1 = 20;
+	 	int num2 = 40;
 	inputFirstElement.sendKeys(""+num1);
 	inputSecondElement.sendKeys(""+num2);
 	
