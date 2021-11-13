@@ -104,7 +104,7 @@ public class UIPageSeleniumTest {
 	System.out.println("The url value is "+url);
 	System.out.println("The lang  value is "+data);
 	  	  
-	String expected = "HTML" ;
+	String expected = "HTML-Page" ;
 	Assert.assertEquals(expected, data);   
 	 
 	}
